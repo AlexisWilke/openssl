@@ -105,7 +105,7 @@ the current bind mode. If B<BIO_BIND_NORMAL> (the default) is set
 then another socket cannot be bound to the same port. If
 B<BIO_BIND_REUSEADDR> is set then other sockets can bind to the
 same port. If B<BIO_BIND_REUSEADDR_IF_UNUSED> is set then and
-attempt is first made to use BIO_BIN_NORMAL, if this fails
+attempt is first made to use BIO_BIND_NORMAL, if this fails
 and the port is not in use then a second attempt is made
 using B<BIO_BIND_REUSEADDR>.
 
